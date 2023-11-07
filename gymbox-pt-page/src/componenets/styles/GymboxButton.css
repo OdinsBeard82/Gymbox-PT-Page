@@ -1,0 +1,54 @@
+.gymbox-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+  }
+
+
+.switch {
+    font-size: 10px;
+    font-weight: bold;
+    border: 2px solid white; 
+    border-radius: 0; 
+    padding: 5px;
+    background: transparent;
+    color: white;
+    margin: 20px;
+  }
+  
+.button-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.gym {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+.box {
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+  
+.box::before {
+    content: ' ';
+    width: 50px;
+    height: 5px;
+    display: block;
+    margin-top: 5px;
+  }
+
+.small-tm {
+    font-size: 4px; 
+  }
+
+.switch:hover {
+    color: rgb(255, 191, 72);
+    border-color: rgb(255, 191, 72);
+    cursor: pointer;
+
+}

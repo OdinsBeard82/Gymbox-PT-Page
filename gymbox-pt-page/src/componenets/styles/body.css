@@ -1,0 +1,52 @@
+.pt p:first-child {
+    color: #000;
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+    font-family: helvetica-extended,sans-serif;
+    font-weight: bold;
+  }
+  
+  .pt p {
+    margin: 0;
+}
+  
+  .trainer-image {
+    display: block; 
+    margin: 10px auto; 
+    max-width: 100%;
+    height: auto; 
+  }
+
+  .boxer-image {
+    display: block; 
+    margin: 10px auto; 
+    max-width: 100%;
+    height: auto; 
+  }
+  
+*, :after, :before {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.imagesText {
+    color: white;
+}
+.clickHere {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: black; 
+    border-radius: 0; 
+    background: transparent;
+    font-family: helvetica-extended,sans-serif;
+    margin: 0 0 20px;
+}
+.clickHere:hover {
+    color: rgb(255, 191, 72);
+    cursor: pointer;
+}

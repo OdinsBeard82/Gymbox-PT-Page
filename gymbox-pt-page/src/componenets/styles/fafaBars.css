@@ -1,0 +1,9 @@
+.right-content {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20.8px;
+}
+.right-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
