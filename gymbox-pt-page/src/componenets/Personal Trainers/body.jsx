@@ -8,6 +8,7 @@ function PersonalTrainerHeader() {
     <div className="pt">
       <div className="imagesText">
         <img src={VPTimage} alt="VPTimage" className="trainer-image" />
+        <div class='box'></div>
         <div className="text-content1">
           <h3>Personal Training at Gymbox</h3>
           <p>Whether you need help giving gymtimidation the boot or expert programming to smash through those PBs, Gymbox PTs guarantee to give your workouts all the gear AND plenty of ideas. How? Well, cos we’ve trained them.</p>

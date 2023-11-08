@@ -1,10 +1,13 @@
 import React from 'react';
+import '../styles/GymboxButton.css';
 
 function HomePage() {
   return (
-    <div>
-      <h1>This is the Home Page</h1>
-      {/* Add content for your second page here */}
+    <div className="gymbox-button-container">
+      <button className="switch">
+        GYM<sup className="small-tm">&#x2122;</sup> BOX
+      </button>
+      <logoButton />
     </div>
   );
 }
