@@ -7,6 +7,7 @@ function GymboxButton() {
       <button className="switch">
         GYM<sup className="small-tm">&#x2122;</sup> BOX
       </button>
+      <logoButton />
     </div>
   );
 }
