@@ -46,13 +46,12 @@ body {
 }
 
 .box2 {
-    
     position: absolute;
     top: 530px;
     left: 480px; 
-    margin: 15px;
-    height: 200px;
-    width: 320px;
+    margin: 20px;
+    height: 230px;
+    width: 325px;
     background-color: #fecf3b;
     z-index:-1;
     float: right;
@@ -106,3 +105,7 @@ body {
 
 
 
+.half-a-border-on-top {
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+  }
