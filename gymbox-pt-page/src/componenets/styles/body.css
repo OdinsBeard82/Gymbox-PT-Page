@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 .pt p:first-child {
     color: #000;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
@@ -10,9 +13,6 @@
     font-weight: bold;
 }
 
-.pt p {
-    margin: 70px;
-}
 
 .trainer-image {
     display: block;
@@ -23,6 +23,51 @@
     margin: 0 50px 100px 50px; 
 }
 
+.box1 {
+    top: 170px;
+    left: 250px; 
+    margin:12px;
+    height: 245px;
+    width: 335px;
+    background-color: #fecf3b;
+    z-index:-1;
+    border: 20px solid black;
+}
+
+.text-content1 {
+    position: absolute;
+    top: 250px;
+    right: 10px;
+    max-width: 40%;
+    font-weight: 400;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.box2 {
+    
+    position: absolute;
+    top: 530px;
+    left: 480px; 
+    margin: 15px;
+    height: 200px;
+    width: 320px;
+    background-color: #fecf3b;
+    z-index:-1;
+    float: right;
+}
+
+.text-content2 {
+    position: absolute;
+    top: 450px;
+    max-width: 40%;
+    font-weight: 400px;
+    margin: 50px;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
 
 .boxer-image {
     display: block;
@@ -42,24 +87,6 @@
     color: white;
 }
 
-.text-content1 {
-    max-width: 100%;
-    font-weight: 400;
-    color: #fff;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-
-}
-
-.text-content2 {
-    max-width: 500px;
-    font-weight: 400;
-    margin: 0 0 8px;
-    color: #fff;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-}
-
 .clickHere {
     color: white;
     font-size: 12px;
@@ -76,24 +103,6 @@
     cursor: pointer;
 }
 
-.box1 {
-    top: 170px;
-    left: 250px; 
-    margin:12px;
-    height: 245px;
-    width: 335px;
-    background-color: #fecf3b;
-    z-index:-1;
-    border: 20px solid black;
-}
 
-.box2 {
-    position: absolute;
-    top: 600px;
-    left: 480px; 
-    margin:20px;
-    height: 208px;
-    width: 315px;
-    background-color: #fecf3b;
-    z-index:-1;
-}
+
+

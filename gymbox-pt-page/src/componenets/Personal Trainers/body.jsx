@@ -6,6 +6,7 @@ import VPTBoxer from '../img/VPT-Boxer.jpeg';
 function PersonalTrainerHeader() {
   return (
     <div className="pt">
+      <p>PERSONAL TRAINERS</p>
       <div className="imagesText">
         <img src={VPTimage} alt="VPTimage" className="trainer-image" />
         <div class='box1'></div>
