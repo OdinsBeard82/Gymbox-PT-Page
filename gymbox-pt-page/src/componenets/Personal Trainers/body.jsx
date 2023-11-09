@@ -8,12 +8,14 @@ function PersonalTrainerHeader() {
     <div className="pt">
       <div className="imagesText">
         <img src={VPTimage} alt="VPTimage" className="trainer-image" />
-        <div class='box'></div>
+        <div class='box1'></div>
         <div className="text-content1">
           <h3>Personal Training at Gymbox</h3>
           <p>Whether you need help giving gymtimidation the boot or expert programming to smash through those PBs, Gymbox PTs guarantee to give your workouts all the gear AND plenty of ideas. How? Well, cos we’ve trained them.</p>
         </div>
+        </div>
         <img src={VPTBoxer} alt="VPTBoxer" className="boxer-image" />
+        <div class='box2'></div>
         <div className="text-content2">
           <h3>Why work with a coach?</h3>
           <p>The Gymbox Academy works with some of the best coaches in London – each one bringing their unique personalities, specialist insight and expertise in club upon finishing training. Armed with the sharpest skills and latest techniques, choosing a Gymbox Personal Trainer means that whatever your goal, you’ll be in the safest (and strongest) hands around. Teaming up with your PT, you can expect tailored assessments and programmes to guide you. Access to more knowledge than Google and Stephen Fry combined. And plenty of professional expertise in weight management, strength training, rehabilitation, body composition, combat sports, movement health, and functional training.
@@ -22,7 +24,7 @@ function PersonalTrainerHeader() {
           </p>
         </div>
       </div>
-    </div>
+
   );
 }
 
